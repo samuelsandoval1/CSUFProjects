@@ -1,0 +1,7 @@
+{
+    "ReadIn" : 3,
+    "ValidateUser" : 3,
+    "AuthenticateUser" : 3,
+    "GetPassword" : 3,
+    "WordBucketId" : 3
+}

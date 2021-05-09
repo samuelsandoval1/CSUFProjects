@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2020-12-01T20:22:44" name="AllTests">
+  <testsuite name="ReadIn" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-12-01T20:22:44">
+    <testcase name="ReadIn" status="run" result="completed" time="0" timestamp="2020-12-01T20:22:44" classname="ReadIn" />
+  </testsuite>
+  <testsuite name="ValidateUser" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-12-01T20:22:44">
+    <testcase name="ValidateUser" status="run" result="completed" time="0" timestamp="2020-12-01T20:22:44" classname="ValidateUser" />
+  </testsuite>
+  <testsuite name="AuthenticateUser" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-12-01T20:22:44">
+    <testcase name="AuthenticateUser" status="run" result="completed" time="0" timestamp="2020-12-01T20:22:44" classname="AuthenticateUser" />
+  </testsuite>
+  <testsuite name="GetPassword" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-12-01T20:22:44">
+    <testcase name="GetPassword" status="run" result="completed" time="0" timestamp="2020-12-01T20:22:44" classname="GetPassword" />
+  </testsuite>
+  <testsuite name="WordBucketId" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-12-01T20:22:44">
+    <testcase name="WordBucketId" status="run" result="completed" time="0" timestamp="2020-12-01T20:22:44" classname="WordBucketId" />
+  </testsuite>
+</testsuites>

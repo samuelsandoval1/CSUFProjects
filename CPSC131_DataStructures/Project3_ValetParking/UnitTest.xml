@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0.002" timestamp="2020-11-10T17:56:31" name="AllTests">
+  <testsuite name="Empty" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-11-10T17:56:31">
+    <testcase name="Empty" status="run" result="completed" time="0" timestamp="2020-11-10T17:56:31" classname="Empty" />
+  </testsuite>
+  <testsuite name="OneCheckIn" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-11-10T17:56:31">
+    <testcase name="OneCheckIn" status="run" result="completed" time="0" timestamp="2020-11-10T17:56:31" classname="OneCheckIn" />
+  </testsuite>
+  <testsuite name="CheckInCheckOut" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-11-10T17:56:31">
+    <testcase name="CheckInCheckOut" status="run" result="completed" time="0" timestamp="2020-11-10T17:56:31" classname="CheckInCheckOut" />
+  </testsuite>
+  <testsuite name="ThreeStalls" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-11-10T17:56:31">
+    <testcase name="ThreeStalls" status="run" result="completed" time="0" timestamp="2020-11-10T17:56:31" classname="ThreeStalls" />
+  </testsuite>
+  <testsuite name="ThirtyStalls" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2020-11-10T17:56:31">
+    <testcase name="ThirtyStalls" status="run" result="completed" time="0.001" timestamp="2020-11-10T17:56:31" classname="ThirtyStalls" />
+  </testsuite>
+</testsuites>

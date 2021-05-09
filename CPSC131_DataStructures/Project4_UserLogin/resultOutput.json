@@ -1,0 +1,31 @@
+{
+    "finalTotal": "15",
+    "maxPossiable": "15",
+    "tests": [
+        {
+            "testName": "ReadIn",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "ValidateUser",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "AuthenticateUser",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "GetPassword",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "WordBucketId",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "finalTotal": "15",
+    "maxPossiable": "15",
+    "tests": [
+        {
+            "testName": "Empty",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "OneCheckIn",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "CheckInCheckOut",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "ThreeStalls",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "ThirtyStalls",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        }
+    ]
+}

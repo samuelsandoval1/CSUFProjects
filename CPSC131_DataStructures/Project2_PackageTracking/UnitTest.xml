@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="8" failures="0" disabled="0" errors="0" time="0.003" timestamp="2020-10-13T19:25:03" name="AllTests">
+  <testsuite name="GivenCode" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-10-13T19:25:03">
+    <testcase name="ShippingUpdate" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="GivenCode" />
+  </testsuite>
+  <testsuite name="ShippingUpdate" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2020-10-13T19:25:03">
+    <testcase name="InitializationConstructor" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="ShippingUpdate" />
+    <testcase name="Describe" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="ShippingUpdate" />
+  </testsuite>
+  <testsuite name="PackageStatusConstructorsAccessors" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-10-13T19:25:03">
+    <testcase name="PackageStatusConstructorsAccessors" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="PackageStatusConstructorsAccessors" />
+  </testsuite>
+  <testsuite name="AddUpdate" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-10-13T19:25:03">
+    <testcase name="AddUpdate" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="AddUpdate" />
+  </testsuite>
+  <testsuite name="ReadingJSON" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2020-10-13T19:25:03">
+    <testcase name="PackageStatusFromJSON" status="run" result="completed" time="0.001" timestamp="2020-10-13T19:25:03" classname="ReadingJSON" />
+  </testsuite>
+  <testsuite name="CursorMotion" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-10-13T19:25:03">
+    <testcase name="CursorMotion" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="CursorMotion" />
+  </testsuite>
+  <testsuite name="PackageStatusDescribe" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2020-10-13T19:25:03">
+    <testcase name="PackageStatusDescribe" status="run" result="completed" time="0" timestamp="2020-10-13T19:25:03" classname="PackageStatusDescribe" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,41 @@
+{
+    "finalTotal": "21",
+    "maxPossiable": "21",
+    "tests": [
+        {
+            "testName": "GivenCode",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "ShippingUpdate",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "PackageStatusConstructorsAccessors",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "AddUpdate",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "ReadingJSON",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "CursorMotion",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        },
+        {
+            "testName": "PackageStatusDescribe",
+            "testResults": "3",
+            "testMaxPoints": "3"
+        }
+    ]
+}

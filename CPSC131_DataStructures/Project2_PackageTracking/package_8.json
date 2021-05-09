@@ -1,0 +1,13 @@
+{
+    "tracking_number" : "1Z4310X3YW25357495",
+    "updates" : [
+	["Package has left seller facility and is in transit to carrier", "N/A", 1515978000],
+	["Shipment arrived at Amazon facility", "Hebron, KENTUCKY US", 1516111440],
+	["Shipment departed from Amazon facility", "Hebron, KENTUCKY US", 1516188120],
+	["Shipment arrived at Amazon facility", "San Bernardino, CALIFORNIA US", 1516366740],
+	["Shipment departed from Amazon facility", "San Bernardino, CALIFORNIA US", 1516392780],
+	["Package arrived at a carrier facility", "Chino US, CALIFORNIA US", 1516410060],
+	["Out for delivery", "Chino, US", 1516441740],
+	["Delivered", "Diamond Bar, US", 1516468200]
+    ]
+}

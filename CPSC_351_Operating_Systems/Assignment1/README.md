@@ -1,7 +1,5 @@
-Joseph Nasr: jenasr@csu.fullerton.edu
-Melanie Mach
-Sam Sandoval
-Sam Valls
+# Assignment 1
+
 
 Language: C++
 

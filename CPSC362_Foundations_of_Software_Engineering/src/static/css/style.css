@@ -1,0 +1,136 @@
+/* INDEX.HTML CSS */
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.suggested{
+    color: black;
+    text-align: center;
+    padding: 50px;
+    
+}
+  .search {
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .search > form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search .secDate {
+    position: fixed;
+  }
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  .car-image {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .car-listing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .search-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    color: #333;
+  }
+
+  .section-text {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #333;
+  }
+
+  /* Use an ID selector to define styles for a specific element */
+  #date-container {
+    /* Add some padding to the container element */
+    padding: 24px;
+
+    /* Add a border around the container element */
+    border: 1px solid #ccc;
+
+    /* Add a background color to the container element */
+    background-color: #fafafa;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+    .search-container {
+      grid-template-columns: 1fr;
+    }  
+  }
+
+  @media screen and (min-width: 1000px) {
+    .search-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }  
+  }
+/* 
+    padding: 50px;
+
+
+To use class in html do
+
+.name
+
+use <div class="name">
+
+
+*/

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+<head>
+    <title>{% block title %} 🏎 Caravan  {% endblock %}</title>
+</head>
+
+{% block content %}
+<h1>Available Vehicles</h1>
+
+<!-- Update CSS classes later -->
+
+<div align="left">
+</div>
+    <div class="search-container">
+      
+        {% for car in cars%}
+        <div class="card car-listing">
+            <img class="card-img-top car-image" src={{ car["Image"] }} alt=""/> 
+
+            <form class="card-body" action="/bookingRequest" METHOD="POST">
+                
+                <input type="hidden" name="specificCar" value={{ car["Name"] }}> 
+                <h4 class="card-title">{{ car["Name"].replace("_", " ") }}</h4>
+            
+                <div class="card-text">
+                <b>Mileage: </b>
+                <p> {{ car["Mileage"] }}</p>
+                <b>Seat Capacity: </b>
+                <p> {{ car["Seats"] }}</p>
+            
+                <b>Renting Price: </b>
+                <input type="hidden" name="rentPrice" value={{ car["RentPrice"] }}>                
+                <p>  {{ car["RentPrice"] }} </p>
+                <b>Year: </b>
+                <p> {{ car["Year"] }}</p>
+                </div>
+
+                <input type="hidden" name="datesAmount" value={{ datesAmount }}>
+                <input class="btn btn-secondary" type="submit" value="Select Car">
+                <br>
+            </form>
+        </div>
+        {% endfor %}
+        
+    </div>
+<!--     
+    <div class="search-box">
+        {% block form %} Search here {% endblock %}
+    </div> -->
+
+
+{% endblock %}

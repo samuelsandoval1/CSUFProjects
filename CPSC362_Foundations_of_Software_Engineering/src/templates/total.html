@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+<head>
+  <title>{% block title %} 🏎 Caravan  {% endblock %}</title>
+</head>
+
+{% block content %}
+<h1>Final Total</h1>
+
+<!-- Update CSS classes later -->
+
+<div style="text-align: center">
+  <h2> Price Details </h2>
+  <br>
+  <div class="search-box">
+    <h3 class="section-title"> Car rental fee x days</h3>
+    <p class="section-text"> ${{ rateWithDays }} </p>
+    <h3 class="section-title"> Taxes & Fees</h3>
+    <p class="section-text"> ${{ taxes }} </p>
+    <h3 class="section-title"> Total Price </h3>
+    <p class="section-text"> ${{ priceTotal }} </p>
+    <a href="https://paypal.com" class="btn btn-secondary"> Reserve </a>
+  </div>
+</div>
+
+{% endblock %}

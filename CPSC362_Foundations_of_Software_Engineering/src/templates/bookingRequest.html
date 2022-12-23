@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+<head>
+  <title>{% block title %} 🏎 Caravan  {% endblock %}</title>
+</head>
+
+{% block content %}
+<h1 class="title"> Car Rental Booking Request </h1>
+
+<!-- Update CSS classes later -->
+
+<div id="date-container">
+  <h2 class="section-title"> Your Selection </h2>
+  <br>
+  <b class="section-title"> Car: </b>
+  <p class="section-text"> {{ car.replace("_", " ") }} </p>
+  <br>
+  <b class="section-title"> Rent Price </b>
+  <p class="section-text"> {{ price }} </p>
+  <br>
+  <h5 class="section-title"> Rental Policies </h5>
+  <p class="section-text"> All rentals are non-refundable. </p>
+  <p class="section-text">  A valid credit card with sufficient funds in the name of the main driver is required at pick-up. 
+      The card will also be required to pay for refundablele security deposit, additional fees and extras requested, 
+      if any at the pick-up counter.
+      Accepted credit cards: Mastercard, VISA, Discover, American Express
+      Cash is not accepted. </p>
+  <p class="section-text"> Drivers under the age of 25 are unable to rent vehicles with us. </p>
+  <h5 class="section-title"> Insurance Add-On </h5>
+  <p class="section-text"> $10 per calendar day. </p>
+  <p class="section-text"> Covers your rental vehicle from collision damage, theft and vandalism. </p>
+  <br>
+  <form action="/finalTotal" METHOD="POST">
+    <!-- <input type="text" placeholder="Search" name="results"> -->
+    <label> Add-on Insurance: </label>
+    <input type="checkbox" name="insuranceAddOn">
+    <input type="hidden" name="price" value= {{ price }}>
+    <input type="hidden" name="datesAmount" value={{datesAmount}}>
+    Yes
+    <br>
+    <input type="submit" value="Continue" class="btn btn-secondary">
+  </form>
+</div>
+
+{% endblock %}

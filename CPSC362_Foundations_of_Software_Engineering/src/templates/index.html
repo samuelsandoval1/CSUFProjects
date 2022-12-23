@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+<head>
+    <title>{% block title %} 🏎 Caravan  {% endblock %}</title>
+</head>
+
+{% block content %}
+<h1> Welcome to Caravan 🏎 </h1>
+
+<!-- Add a search form to allow users to enter their desired rental dates -->
+<div class="search">
+    <form action="/search" METHOD="POST">
+        <div class="form-group">
+            <label class="center">Select the dates to rent a vehicle: </label>
+            <input class="form-control" type="date" placeholder="XX/XX/XXX" name="dateRange1"> 
+        </div>
+        <div class="form-group">
+            <label id="secDate"> to </label>
+            <input class="form-control" type="date" id="secDate" placeholder="XX/XX/XXX" name="dateRange2">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit" class="btn btn-secondary">
+    </form>
+</div>
+
+<!-- Add a section to display featured vehicles -->
+<h2>Featured Vehicles</h2>
+<div class="featured-vehicles">
+    <div class="vehicle"  style="float: left; margin: 0 auto; text-align: center;">
+        <img src="https://www.enterprise.com/content/dam/ecom/utilitarian/common/exotics/car-thumbnails/Aston-Martin-DBX_HERO-THUMBNAIL_2048x1360.png" alt="black car" style="max-width: 600px;">
+        <h3>Aston Martin DBX</h3>
+        <p>The new DBX707 is an SUV like no other. With blistering performance,
+            supreme dynamics, unmistakable style and absolute luxury, it’s a car that dominates in every sense.</p>
+        <a href="https://www.enterprise.com/en/exotic-car-rental/vehicles/ultra-luxury-suv/aston-martin-dbx.html" class="btn btn-secondary">View Details</a>
+    </div>
+</div>
+<div class="vehicle" style="float: left; text-align: center;">
+    <img src="https://www.enterprise.com/content/dam/ecom/utilitarian/common/exotics/us-refresh/car-thumbnails/thumbnail-2020-audi-a5-coupe-2048x1360.png" alt="blue car" style="max-width: 600px;">
+    <h3>Audi A5 Coupe</h3>
+    <p>The Audi A5 offers impressive elegance, advanced technology and exhilarating driving dynamics. 
+        Experience sporty, elegant driving in the A5 Coupe.</p>
+    <a href="https://www.enterprise.com/en/exotic-car-rental/vehicles/luxury-sport/audi-a5-coupe.html" class="btn btn-secondary">View Details</a>
+</div>
+<div class="vehicle" style="float: left; text-align: center;">
+    <img src="https://www.enterprise.com/content/dam/ecom/utilitarian/common/exotics/us-refresh/car-thumbnails/thumbnail-2020-range-rover-2048x1360.png" alt="white suv" style="max-width: 600px;">
+    <h3>Range Rover</h3>
+    <p>Legendary. The only word available to describe the Range Rover. 
+        The do-it-all SUV is beautifully appointed with luxurious comfort and features a suite of advance technologies.</p>
+    <a href="https://www.enterprise.com/en/exotic-car-rental/vehicles/premium-luxury-suv/range-rover.html" class="btn btn-secondary">View Details</a>
+</div>
+</div>
+
+{% endblock %}

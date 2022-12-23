@@ -1,0 +1,27 @@
+Tokens               Lexeme
+---------------------------
+Token.KEYWORD    ---> int          
+Token.IDENTIFIER ---> main         
+Token.KEYWORD    ---> for          
+Token.KEYWORD    ---> int          
+Token.IDENTIFIER ---> i            
+Token.OPERATOR   ---> =            
+Token.INTEGER    ---> 22           
+Token.IDENTIFIER ---> i            
+Token.OPERATOR   ---> <=           
+Token.INTEGER    ---> 100          
+Token.IDENTIFIER ---> i            
+Token.OPERATOR   ---> =            
+Token.IDENTIFIER ---> i            
+Token.OPERATOR   ---> +            
+Token.INTEGER    ---> 1            
+Token.KEYWORD    ---> while        
+Token.IDENTIFIER ---> i            
+Token.OPERATOR   ---> ==           
+Token.INTEGER    ---> 100          
+Token.KEYWORD    ---> cout         
+Token.OPERATOR   ---> <<           
+Token.LITERAL    ---> "Hello World!"   
+Token.COMMENT    ---> //print out   
+Token.KEYWORD    ---> return       
+Token.INTEGER    ---> 0            
